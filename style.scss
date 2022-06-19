@@ -1,0 +1,50 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #fcde67;
+
+        #card {
+            display: flex;
+            flex-basis: 20%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            text-align: center;
+            background: white;
+
+            #app {
+                width: 200px;
+                min-height: 400px;
+                background: #fcde67;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.3) 1.95px 1.95px 2.6px;
+
+                h1 {
+                    background: green;
+                }
+
+                button {
+                    margin-top: 20px;
+                    background: rebeccapurple;
+                    color: white;
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
